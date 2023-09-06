@@ -1,0 +1,29 @@
+/* Write your CSS here */
+
+.li-card {
+  list-style-type: none;
+  padding: 1px 25px;
+  margin: 1px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.li-para {
+  color: #475569;
+  font-size: 15px;
+  padding: 1px;
+  margin: 3px;
+  font-weight: 500;
+}
+
+.arrow-img {
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .arrow-img {
+    width: 20px;
+    height: 20px;
+  }
+}

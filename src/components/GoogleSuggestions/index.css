@@ -1,0 +1,68 @@
+/* Write your CSS here */
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto';
+  padding: 1px 3% 3% 3%;
+  background-size: cover;
+  min-height: 100vh;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-container {
+    padding: 7%;
+    align-items: center;
+    margin-top: 0;
+  }
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 0 3% 3% 3%;
+  margin-top: 1px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 60%;
+    padding: 7%;
+  }
+}
+
+.google-logo {
+  width: 75%;
+}
+
+.ul-card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 12px;
+  width: 96%;
+  padding: 10px 0;
+}
+
+.input-and-search-icon {
+  display: flex;
+  justify-content: flex-start;
+  padding: 8px 12px 5px 12px;
+}
+
+.search-icon {
+  width: 22px;
+}
+
+.input-field {
+  width: 500px;
+  margin-left: 5px;
+  border: none;
+  border-width: 0;
+  cursor: pointer;
+  padding-right: 5px;
+}
